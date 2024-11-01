@@ -62,46 +62,46 @@ export const fetch_config_UA = { headers: { "User-Agent": UA } };
 //===========================替换搜索 Fuck Search================================
 //添加假番剧作公告板
 //标题 <em class="keyword">标签可以重点标注
-export const fs_title: string = '功能测试 <em class="keyword">xrz</em>';
+export const fs_title: string = 'listder <em class="keyword">QAQ</em>';
 //封面
 export const fs_cover: string =
-  "https://i0.hdslb.com/bfs/face/046974d6dde4af386f7eb4f231b84ec08bad693b.jpg";
+  "https://blog.listder.xyz/pic/listder.jpg";
 //用处不明
-export const fs_uri: string = "https://xrz.cool";
+export const fs_uri: string = "https://blog.listder.xyz";
 //标签-副标题1
-export const fs_style: string = "标签1 | 测试";
+export const fs_style: string = "lolicon";
 //标签-副标题2
-export const fs_label: string = "标签2 | test";
+export const fs_label: string = "lolicon";
 //描述(WEB版API)
-export const fs_desc: string = "这是一个公告哦！";
+export const fs_desc: string = "QWQ";
 //番剧分数
 export const fs_rating: number = 10;
 //打分人数
-export const fs_vote: number = 1;
+export const fs_vote: number = 1024;
 //立即观看按钮-主选项标题
 export const fs_watch_button_title: string = "立即观看";
 //立即观看按钮-主选项链接
-export const fs_watch_button_link: string = "https://cn.bing.com";
+export const fs_watch_button_link: string = "https://blog.listder.xyz/";
 //追番按钮-追番
-export const fs_follow_button_title: string = "别点";
+export const fs_follow_button_title: string = "女装照片";
 //追番按钮-取消追番
-export const fs_unfollow_button_title: string = "谢邀";
+export const fs_unfollow_button_title: string = "才没有（";
 //番剧封面右上角标签
-export const fs_badges: string = "萨日朗";
+export const fs_badges: string = "萝莉控";
 //番剧剧集显示方式 grid-单行方块(按钮式) horizontal-列表长条(横条式)
 export const fs_selection_style: "grid" | "horizontal" = "horizontal";
 //番剧剧集数据(APP端API)
 export const fs_episodes_app = [
   {
-    title: "教程",
-    uri: "https://github.com/yujincheng08/BiliRoaming/wiki#使用方法",
+    title: "我的blog",
+    uri: "https://blog.listder.xyz/",
   },
   {
-    title: "官方反馈群",
-    uri: "https://t.me/biliroaming",
+    title: "联系我",
+    uri: "https://t.me/listder",
     badges: [
       {
-        text: "官方",
+        text: "萝莉控",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -113,11 +113,11 @@ export const fs_episodes_app = [
     ],
   },
   {
-    title: "这里没东西",
-    uri: "https://www.bilibili.com/video/av928861104",
+    title: "GitHub",
+    uri: "https://github.com/bGlzdGRlcg/",
     badges: [
       {
-        text: "愿者上勾",
+        text: "恋童癖",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -135,22 +135,22 @@ export const fs_episodes_web = [
   {
     id: 1,
     cover: "",
-    title: "教程",
-    url: "https://github.com/yujincheng08/BiliRoaming/wiki#使用方法",
+    title: "我的blog",
+    url: "https://blog.listder.xyz/",
     release_date: "",
     badges: null,
     index_title: "1",
-    long_title: "教程",
+    long_title: "我的blog",
   },
   {
     id: 1,
     cover: "",
-    title: "官方反馈群",
-    url: "https://t.me/biliroaming",
+    title: "联系我",
+    url: "https://t.me/listder",
     release_date: "",
     badges: [
       {
-        text: "官方",
+        text: "萝莉控",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -161,17 +161,17 @@ export const fs_episodes_web = [
       },
     ],
     index_title: "2",
-    long_title: "官方反馈群",
+    long_title: "联系我",
   },
   {
     id: 1,
     cover: "",
-    title: "这里没东西",
-    url: "https://www.bilibili.com/video/av928861104",
+    title: "GitHub",
+    url: "https://github.com/bGlzdGRlcg/",
     release_date: "",
     badges: [
       {
-        text: "愿者上勾",
+        text: "恋童癖",
         text_color: "#FFFFFF",
         text_color_night: "#E5E5E5",
         bg_color: "#FB7299",
@@ -182,7 +182,7 @@ export const fs_episodes_web = [
       },
     ],
     index_title: "3",
-    long_title: "这里没东西",
+    long_title: "GitHub",
   },
 ];
 //============================================================
@@ -233,7 +233,7 @@ export const whitelist_vip_enabled: io = 0;
 
 //===================获取公共黑白名单============================
 //功能开关 1-开 0-关
-export const public_blacklist_enabled: io = 1;
+export const public_blacklist_enabled: io = 0;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
 export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 //============================================================
