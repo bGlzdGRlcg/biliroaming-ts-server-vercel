@@ -240,7 +240,7 @@ export const public_blacklist: string = "https://black.qimo.ink/api/users/";
 
 //=====================限制API调用=============================
 //要求登录 1-开 0-关
-export const need_login: io = 1;
+export const need_login: io = 0;
 //允许WEB版使用(B站官网可直接请求,无需开启此选项) 1-开 0-关
 export const web_on: io = 1;
 //允许Referer为 https://www.bilibili.com 的请求而无需打开web_on (解决BBDown问题) 1-开 0-关
@@ -255,7 +255,7 @@ export const ver_min: number = 0;
 //默认屏蔽部分番剧/视频，建议保持
 export const block_bangumi: _block_bangumi = {
   ss: [], //暂不支持ss屏蔽
-  ep: [778998, 778292, 769927, 778044, 779739, 780016], //数字
+  ep: [], //数字
   cid: [], //数字
   avid: [], //数字
   bvid: [], //字符，eg. ["BV1Wz4y1t7g4"]
