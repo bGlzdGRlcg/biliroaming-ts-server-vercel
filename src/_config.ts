@@ -213,7 +213,7 @@ export const db_bitio_pool = new Pool({ connectionString, ssl: true }); //导出
 //NOTION数据库配置
 //NOTION KEY
 export const NOTION_KEY =
-  process.env.NOTION_KEY || "secret_***BUrz1***********eknk*****gm";
+  process.env.NOTION_KEY || "";
 //NOTION DATABASES
 //为空""且不添加环境变量即禁用该功能
 export const db_NOTION_blacklist = process.env.NOTION_db_blacklist || "";
