@@ -235,7 +235,7 @@ export const whitelist_vip_enabled: io = 0;
 //功能开关 1-开 0-关
 export const public_blacklist_enabled: io = 0;
 //公共黑名单地址 要求：URL后需可以直接加 UID/mid
-export const public_blacklist: string = "https://black.qimo.ink/api/users/";
+export const public_blacklist: string = "";
 //============================================================
 
 //=====================限制API调用=============================
